@@ -7,6 +7,7 @@ def get_new_car
   }
 end
 
+
 def add_car(cars, new_car)
   cars << new_car
   "Adding new car to fleet. Fleet size is now #{cars.length}."
